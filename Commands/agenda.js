@@ -15,7 +15,7 @@ module.exports = {
     dm: agendaConfig.dm,
     category: agendaConfig.category,
 
-    async run(bot, message) {
-        await message.reply(agendaConfig.reply);
+    async run(bot, interaction) {
+        await interaction.reply(agendaConfig.reply);
     }
 };

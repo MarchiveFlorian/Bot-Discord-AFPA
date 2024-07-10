@@ -15,7 +15,7 @@ module.exports = {
     dm: metisConfig.dm,
     category: metisConfig.category,
 
-    async run(bot, message) {
-        await message.reply(metisConfig.reply);
+    async run(bot, interaction) {
+        await interaction.reply(metisConfig.reply);
     }
 };

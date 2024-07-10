@@ -30,5 +30,13 @@
         "dm": true,
         "category": "lien",
         "reply": "Voici le lien vers Taiga: \n https://tree.taiga.io/project/ludovic-esperce-cda-begles/kanban"
+    },
+    "planning": {
+        "name": "planning",
+        "description": "Affiche l'emploi du temps des cours",
+        "permission": "Aucune",
+        "dm": true,
+        "category": "infos",
+        "reply": "Voici l'emploi du temps des cours pour cette semaine :\nLundi : 8h-12h - <placeholder>\nMardi : 14h-17h - Programmation\nMercredi : 8h-12h - Algorithmes\nJeudi : 14h-17h - Structures de données\nVendredi : 9h-12h - Projets"
     }
 }

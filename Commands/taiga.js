@@ -15,7 +15,7 @@ module.exports = {
     dm: taigaConfig.dm,
     category: taigaConfig.category,
 
-    async run(bot, message) {
-        await message.reply(taigaConfig.reply);
+    async run(bot, interaction) {
+        await interaction.reply(taigaConfig.reply);
     }
 };
