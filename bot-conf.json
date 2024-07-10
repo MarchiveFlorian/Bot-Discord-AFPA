@@ -1,0 +1,34 @@
+{
+    "stage": {
+        "name": "stage",
+        "description": "Affiche les dates de stage",
+        "permission": "Aucune",
+        "dm": true,
+        "category": "infos",
+        "reply": "Les dates de stage sont les suivantes : \n 06 janvier 2025 -> 28 mars 2025"
+    },
+    "agenda": {
+        "name": "agenda",
+        "description": "Affiche le google agenda de la classe",
+        "permission": "Aucune",
+        "dm": true,
+        "category": "lien",
+        "reply": "Voici le lien vers le Google agenda : \n https://calendar.google.com/calendar/u/0/r?cid=c023aefdff5a41d40bb2fc0843227fcb7b98747443492e7ebadb9133a221818c@group.calendar.google.com&pli=1"
+    },
+    "metis": {
+        "name": "metis",
+        "description": "Affiche l'url vers le site metis",
+        "permission": "Aucune",
+        "dm": true,
+        "category": "lien",
+        "reply": "Voici le lien vers le site Métis : \n https://metis.afpa.fr/login/index.php"
+    },
+    "taiga": {
+        "name": "taiga",
+        "description": "Affiche le lien taiga de notre kanban",
+        "permission": "Aucune",
+        "dm": true,
+        "category": "lien",
+        "reply": "Voici le lien vers Taiga: \n https://tree.taiga.io/project/ludovic-esperce-cda-begles/kanban"
+    }
+}

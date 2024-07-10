@@ -1,15 +1,21 @@
-const Discord = require("discord.js")
+const Discord = require("discord.js");
+const fs = require("fs");
+
+// Lire le fichier JSON
+const configData = fs.readFileSync("bot-conf.json");
+const config = JSON.parse(configData);
+
+// Extraire les informations spécifiques à la commande "metis"
+const metisConfig = config.metis;
 
 module.exports = {
-
-    name: "metis",
-    description: "Affiche l'url vers le site metis",
-    permission: "Aucune",
-    dm: true,
-    category: "lien",
+    name: metisConfig.name,
+    description: metisConfig.description,
+    permission: metisConfig.permission,
+    dm: metisConfig.dm,
+    category: metisConfig.category,
 
     async run(bot, message) {
-
-        await message.reply(` Voici le lien vers le site Métis : \n https://metis.afpa.fr/login/index.php`)
+        await message.reply(metisConfig.reply);
     }
-}
+};
