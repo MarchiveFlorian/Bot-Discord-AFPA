@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 module.exports = {
 
     name: "metis",
-    description: "Affiche l'url vers le site metis'",
+    description: "Affiche l'url vers le site metis",
     permission: "Aucune",
     dm: true,
     category: "lien",

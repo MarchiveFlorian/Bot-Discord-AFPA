@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 module.exports = {
 
     name: "agenda",
-    description: "Affiche le google agenda de la classe'",
+    description: "Affiche le google agenda de la classe",
     permission: "Aucune",
     dm: true,
     category: "lien",

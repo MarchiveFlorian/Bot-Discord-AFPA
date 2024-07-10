@@ -6,10 +6,10 @@ module.exports = {
     description: "Affiche les dates de stage",
     permission: "Aucune",
     dm: true,
-    category: "lien",
+    category: "infos",
 
-    async run(bot, message) {
+    async run(bot, interaction) {
 
-        await message.reply(`Les dates de stage sont les suivantes : \n 06 janvier 2025 -> 28 mars 2025`)
+        await interaction.reply(`Les dates de stage sont les suivantes : \n 06 janvier 2025 -> 28 mars 2025`)
     }
 }
